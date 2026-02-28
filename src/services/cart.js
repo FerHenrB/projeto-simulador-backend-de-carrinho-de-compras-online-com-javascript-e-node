@@ -59,8 +59,6 @@ export async function printCart( cart ){
 export async function setSize(cart){
 
     let maxSizeForName = 35
-    let maxSizeForPrice = 10
-    let maxSizeForQuantity = 7
 
     for( let i = 0; i < cart.length; i++){
 
